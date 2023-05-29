@@ -307,7 +307,7 @@ int main(int argc, char *argv[ ])
 		fprintf(stderr, "error\n");
 		exit(-1);
 	}
-	whitelistcheck();
+	
 
 	fprintf(stdout, "preparing flood...\n");
 
