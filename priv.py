@@ -72,8 +72,6 @@ fg = Fore.GREEN
 sd = Style.DIM
 sn = Style.NORMAL
 sb = Style.BRIGHT
-print "  \n  [#] Create By ::\n\t  ___                                                    ______        \n\t / _ \\                                                   |  ___|       \n\t/ /_\\ \\_ __   ___  _ __  _   _ _ __ ___   ___  _   _ ___ | |_ _____  __\n\t|  _  | '_ \\ / _ \\| '_ \\| | | | '_ ` _ \\ / _ \\| | | / __||  _/ _ \\ \\/ /\n\t| | | | | | | (_) | | | | |_| | | | | | | (_) | |_| \\__ \\| || (_) >  < \n\t\\_| |_/_| |_|\\___/|_| |_|\\__, |_| |_| |_|\\___/ \\__,_|___/\\_| \\___/_/\\_\\ \n\t                          __/ |\n\t                         |___/ Scanner Vulnerability  v1.2\n"
-
 
 try:
     target = [ i.strip() for i in open(sys.argv[1], mode='r').readlines() ]
